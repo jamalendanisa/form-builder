@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  font-size: 14px;
+  font-weight: 300;
+  color: #404d5b;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.modal { 
+  background: rgba(0,0,0, 0.3);
+}
+
+.modal-content { 
+  padding: 30px; 
+  max-height: 800px; 
+  overflow-y: auto; 
+}
+
+.home {
+  padding: 20px 40px;
+}
+
+.form-builder {
+  padding-top: 20px;
+}
+
+.react-form-builder .react-form-builder-preview {
+  width: 80% !important;
+}
+
+.head {
+  margin: 10px;
+  width: 75%;
+}
+
+@media (max-width: 768px) {
+  .head {
+    width: 100% !important;
+  }
+  .react-form-builder .react-form-builder-preview {
+    width: 100% !important;
+  }
+  .react-form-builder .react-form-builder-toolbar {
+    bottom: -80px !important;
+  }
+}
